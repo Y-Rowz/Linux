@@ -1,1 +1,79 @@
 
+## Commandes de Gestion des Utilisateurs
+1) useradd : Ajouter un nouvel utilisateur.
+2) userdel : Supprimer un utilisateur.
+3) who : Afficher la liste des utilisateurs connectés.
+4) whoami : Affiche le nom de l'utilisateur actuel.
+5) passwd : Changer le mot de passe de l'utilisateur actuel.
+6) passwd utilisateur : Changer le mot de passe d'un utilisateur spécifique.
+7) usermod : Modifie les informations d'un utilisateur existant.
+   - usermod -aG groupe_utilisateur utilisateur : Ajoute un utilisateur à un groupe spécifié.
+8) groups : Affiche les groupes auxquels appartient l'utilisateur actuel.
+9) su : prendre l'identité d'un autre utilisateur.
+
+## Commandes de Navigation
+1) pwd : Afficher le répertoire de travail actuel.
+2) ls : Lister les fichiers et répertoires du répertoire courant.
+3) cd : Changer de répertoire.
+    - cd chemin/vers/dossier : Naviguer vers un dossier spécifique.
+    - cd .. : Remonter d'un niveau.
+    - cd - : ramène au répertoire précédemment visité.
+    - cd ~ : Aller dans le répertoire de l'utilisateur.
+4) pushd : Empile le répertoire courant sur une pile et change de répertoire.
+5) popd : Dépile le répertoire précédemment empilé et le définit comme répertoire courant.
+
+## Commandes de Gestion de Fichiers
+1) touch : Créer un nouveau fichier vide.
+   - touch nom_du_fichier : Créer un fichier avec un nom spécifié.
+2) cp : Copier des fichiers ou des répertoires.
+   - cp fichier_source fichier_destination : Copier un fichier.
+   - cp -r dossier_source dossier_destination : Copier un répertoire récursivement.
+3) mv : Déplacer ou renommer des fichiers ou des répertoires.
+   - mv fichier_source fichier_destination : Déplacer ou renommer un fichier.
+4) rm : Supprimer des fichiers ou des répertoires.
+   - rm fichier : Supprimer un fichier.
+   - rm -r dossier : Supprimer un répertoire récursivement.
+5) chmod : Modifie les permissions d'accès aux fichiers.
+   - chmod permissions nom_du_fichier : Modifie les permissions d'un fichier.
+6) chown : Change le propriétaire d'un fichier ou d'un répertoire.
+   - chown nouvel_utilisateur nom_du_fichier : Change le propriétaire d'un fichier.
+7) alias : permet de définir des alias temporaires dans la session shell.
+   - alias NAME="VALUE"
+8) unalias : vise à supprimer un alias parmi les alias déjà définis.
+   - unalias NAME
+9) umask : définir les permissions par défaut des fichiers et répertoires.
+10) mkdir : pour créer des répertoires dans le shell.
+    - mkdir nom_du_repertoire/
+    - mkdir -p nom_/des_/sous_repertoires/
+
+
+
+## Commandes de Recherche
+1) grep : Rechercher du texte dans des fichiers.
+   - grep motif fichier : Rechercher un motif dans un fichier.
+2) find : Rechercher des fichiers et des répertoires.
+   - find chemin -name "nom_de_fichier" : Rechercher un fichier par nom.
+3) locate : Rechercher rapidement des fichiers dans une base de données.
+   - locate nom_de_fichier : Rechercher un fichier par nom.
+4) awk : Manipule et traite les fichiers texte.
+   - awk 'pattern { action }' fichier : Effectue une action sur les lignes correspondant à un motif.
+5) sed : Éditeur de flux pour la transformation de texte.
+   - sed 's/ancien_motif/nouveau_motif/g' fichier : Remplace un motif par un autre dans un fichier.
+6) /etc :
+7) /home :
+8) /dev :
+9) /root :
+
+## Commandes d'Affichage de Contenu
+1) cat : Afficher le contenu d'un fichier.
+   - cat nom_du_fichier : Afficher le contenu d'un fichier.
+2) less : Afficher le contenu d'un fichier de manière paginée.
+   - less nom_du_fichier : Afficher le contenu d'un fichier en mode lecture.
+   - Appuyez sur la touche "q" pour quitter.
+3) head : Affiche les premières lignes d'un fichier.
+   - head -n nombre_de_lignes nom_du_fichier : Affiche un nombre spécifié de lignes du début du fichier.
+4) tail : Affiche les dernières lignes d'un fichier.
+   - tail -n nombre_de_lignes nom_du_fichier : Affiche un nombre spécifié de lignes à la fin du fichier.
+5) systemd :
+6) ps : permet d'afficher les processus actifs sur le système.
+7) man : affiche la page de manuel de n’importe quelle autre commande (pour autant qu’elle en ait une).
