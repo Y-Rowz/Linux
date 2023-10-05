@@ -1,5 +1,5 @@
 
-## Commandes de Gestion des Utilisateurs
+-- Commandes de Gestion des Utilisateurs --
 1) useradd : Ajouter un nouvel utilisateur.
 2) userdel : Supprimer un utilisateur.
 3) who : Afficher la liste des utilisateurs connectés.
@@ -11,7 +11,7 @@
 8) groups : Affiche les groupes auxquels appartient l'utilisateur actuel.
 9) su : prendre l'identité d'un autre utilisateur.
 
-## Commandes de Navigation
+-- Commandes d'Aide au Déplacement --
 1) pwd : Afficher le répertoire de travail actuel.
 2) ls : Lister les fichiers et répertoires du répertoire courant.
 3) cd : Changer de répertoire.
@@ -22,7 +22,7 @@
 4) pushd : Empile le répertoire courant sur une pile et change de répertoire.
 5) popd : Dépile le répertoire précédemment empilé et le définit comme répertoire courant.
 
-## Commandes de Gestion de Fichiers
+-- Commandes de Gestion de Fichiers --
 1) touch : Créer un nouveau fichier vide.
    - touch nom_du_fichier : Créer un fichier avec un nom spécifié.
 2) cp : Copier des fichiers ou des répertoires.
@@ -48,7 +48,7 @@
 
 
 
-## Commandes de Recherche
+-- Commandes de Recherche d'Information --
 1) grep : Rechercher du texte dans des fichiers.
    - grep motif fichier : Rechercher un motif dans un fichier.
 2) find : Rechercher des fichiers et des répertoires.
@@ -64,7 +64,7 @@
 8) /dev :
 9) /root :
 
-## Commandes d'Affichage de Contenu
+-- Commandes d'Affichage de Contenu --
 1) cat : Afficher le contenu d'un fichier.
    - cat nom_du_fichier : Afficher le contenu d'un fichier.
 2) less : Afficher le contenu d'un fichier de manière paginée.
