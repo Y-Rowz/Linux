@@ -75,28 +75,35 @@
 
 ---- Commandes de Recherche d'Information ----
 1) grep : Rechercher du texte dans des fichiers.
-   - grep motif fichier : Rechercher un motif dans un fichier.
+      - grep motif fichier : Rechercher un motif dans un fichier.
 2) find : Rechercher des fichiers et des répertoires.
-   - find chemin -name "nom_de_fichier" : Rechercher un fichier par nom.
+      - find chemin -name "nom_de_fichier" : Rechercher un fichier par nom.
 3) locate : Rechercher rapidement des fichiers dans une base de données.
-   - locate nom_de_fichier : Rechercher un fichier par nom.
+      - locate nom_de_fichier : Rechercher un fichier par nom.
 4) awk : Manipule et traite les fichiers texte.
-   - awk 'pattern { action }' fichier : Effectue une action sur les lignes correspondant à un motif.
+      - awk 'pattern { action }' fichier : Effectue une action sur les lignes correspondant à un motif.
 5) sed : Éditeur de flux pour la transformation de texte.
-   - sed 's/ancien_motif/nouveau_motif/g' fichier : Remplace un motif par un autre dans un fichier.
+      - sed 's/ancien_motif/nouveau_motif/g' fichier : Remplace un motif par un autre dans un fichier.
 
 
 ---- Commandes d'Affichage de Contenu ----
 1) cat : Afficher le contenu d'un fichier.
-   - cat nom_du_fichier : Afficher le contenu d'un fichier.
+      - cat nom_du_fichier : Afficher le contenu d'un fichier.
 2) less : Afficher le contenu d'un fichier de manière paginée.
-   - less nom_du_fichier : Afficher le contenu d'un fichier en mode lecture.
-   - Appuyez sur la touche "q" pour quitter.
+      - less nom_du_fichier : Afficher le contenu d'un fichier en mode lecture.
+      - Appuyez sur la touche "q" pour quitter.
 3) head : Affiche les premières lignes d'un fichier.
-   - head -n nombre_de_lignes nom_du_fichier : Affiche un nombre spécifié de lignes du début du fichier.
+      - head -n nombre_de_lignes nom_du_fichier : Affiche un nombre spécifié de lignes du début du fichier.
 4) tail : Affiche les dernières lignes d'un fichier.
-   - tail -n nombre_de_lignes nom_du_fichier : Affiche un nombre spécifié de lignes à la fin du fichier.
-5) systemd :
+      - tail -n nombre_de_lignes nom_du_fichier : Affiche un nombre spécifié de lignes à la fin du fichier.
 6) ps : permet d'afficher les processus actifs sur le système.
+      - ps -u nom_utilisateur : Afficher les processus d'un utilisateur spécifique.
+      - ps aux : Afficher tous les processus de tous les utilisateurs.
+      - ps -ef : Afficher des informations complètes sur les processus.
+      - ps -C nom_commande : Afficher les processus en cours d'exécution associés à une commande spécifique.
+      - ps -l : Afficher les processus en cours d'exécution en format long (long listing).
+      - pstree : Afficher les processus sous forme d'arborescence (tree view).
+      - watch ps : Afficher les processus en temps réel (mise à jour automatique).
 7) man : affiche la page de manuel de n’importe quelle autre commande (pour autant qu’elle en ait une).
+      - man [COMMANDE].
 
